@@ -12,7 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('vistass');
+});
+Route::get('/holamundo', function () {
+    return view('vistass');
 });
 
 Auth::routes();
